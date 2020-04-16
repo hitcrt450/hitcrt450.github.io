@@ -9,13 +9,13 @@
 
     
 
-    <title>Your awesome title</title>
+    <title>about</title>
 
     
       
     
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/about.html">
 
     
     <meta name="keywords" itemprop="keywords" content="">
@@ -141,31 +141,39 @@
     </script>
 
     <section class="page-header">
-      <h1 class="project-name">Your awesome title</h1>
+      <h1 class="project-name">about</h1>
       <h2 class="project-tagline"></h2>
       
     </section>
 
     <section class="main-content fade">
 
-      	  
-	
-	  <!--<h2>#</h2>
-	  <span></span>-->
+      <article>
 
-  <div>&nbsp;</div>
+  <div>
+    <h2 id="section">#作者</h2>
 
-  <ul class="post-list">
-    
+<p>你可以通过以下方式联系作者</p>
 
-    
-  
+<p>QQ: 1316341442</p>
 
-  </ul>
+<p>Email: <a href="mailto:lk@atlinker.cn">lk@atlinker.cn</a></p>
 
-</div>
+<p>Github: <a href="https://github.com/link9596">link9596</a></p>
 
+<h2 id="section-1">#捐助我</h2>
 
+<p>本主题使用免费，也是作者长期工作的结晶，如果你喜欢主题\~想支持作者，欢迎给作者捐赠~</p>
+
+<center>扫下方付款二维码即可向作者捐赠!</center>
+
+<p><img src="https://atlinker.cn/pay/wechat.png" alt="wechat" /></p>
+
+<p><img src="https://atlinker.cn/pay/apay.png" alt="pay" /></p>
+
+  </div>
+
+</article>
 
 
       <footer class="site-footer">
@@ -201,6 +209,8 @@
         console.log(xhr.getAllResponseHeaders())
         curDate = new Date(time);
         document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) -  ) / 86400 )));
+        
+        document.getElementById("sitetime2").innerHTML = (parseInt((((curDate.getTime() / 1000) -  ) / 86400 )));
         
       }
     }

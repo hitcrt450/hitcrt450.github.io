@@ -9,13 +9,13 @@
 
     
 
-    <title>Your awesome title</title>
+    <title>主题配置</title>
 
     
       
     
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/config/infor.html">
 
     
     <meta name="keywords" itemprop="keywords" content="">
@@ -141,31 +141,32 @@
     </script>
 
     <section class="page-header">
-      <h1 class="project-name">Your awesome title</h1>
+      <h1 class="project-name">主题配置</h1>
       <h2 class="project-tagline"></h2>
       
     </section>
 
     <section class="main-content fade">
 
-      	  
-	
-	  <!--<h2>#</h2>
-	  <span></span>-->
-
-  <div>&nbsp;</div>
-
-  <ul class="post-list">
-    
-
-    
-  
-
-  </ul>
-
-</div>
-
-
+         <div class="fade">
+     <div>
+  <span style="color:#78909C;font-size:18px">欢迎您，</span>
+        
+  <span style="color:#159957;font-size:25px">&nbsp;!</span>
+  <h2>Hydrogen版本:<span style="color:#78909C;font-size:20px">&nbsp;1.1.0</span></h2>
+  <br><a href="/update/update.html">查看更新</a>
+  <h2>主域名:<blockquote><span style="color:#78909C;font-size:20px">http://yourdomain.com</span></blockquote></h2>
+  <h2>博主:<blockquote><span style="color:#78909C;font-size:20px"></span></blockquote></h2>
+  <h2>网站关键词:<blockquote><span style="color:#78909C;font-size:20px"></span></blockquote></h2>
+  <h2>网站描述:<blockquote><span style="color:#78909C;font-size:20px">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</span></blockquote></h2>
+  <h2>主题色:<blockquote><span style="color:#;font-size:50px">■</span></blockquote></h2>
+  <h2>MathJax:<blockquote><span style="color:#78909C;font-size:20px"></span></blockquote></h2>
+  <h2>PJAX:<blockquote><span style="color:#78909C;font-size:20px"></span></blockquote></h2>
+  <br><span style="font-size:14px" id="cut"></span>
+  <br><span style="font-size:14px" id="latest"></span>
+    </div>
+   </div>
 
 
       <footer class="site-footer">
@@ -201,6 +202,8 @@
         console.log(xhr.getAllResponseHeaders())
         curDate = new Date(time);
         document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) -  ) / 86400 )));
+        
+        document.getElementById("sitetime2").innerHTML = (parseInt((((curDate.getTime() / 1000) -  ) / 86400 )));
         
       }
     }
