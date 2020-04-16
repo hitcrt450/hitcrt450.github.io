@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="theme-color" content="#">
+    <meta name="theme-color" content="#546E7A">
 
     
 
@@ -18,22 +18,22 @@
     <link rel="canonical" href="/about.html">
 
     
-    <meta name="keywords" itemprop="keywords" content="">
-    <link rel="shortcut icon" sizes="128x128" href="https://http://yourdomain.com/avatar/favicon.png">
+    <meta name="keywords" itemprop="keywords" content="blog,css,html,php">
+    <link rel="shortcut icon" sizes="128x128" href="https://hydrogen.atlinker.cn/avatar/favicon.png">
     <meta name="robots" content="noarchive">
 
    
     <style>
 .site-header {
-   background-color: #;
+   background-color: #546E7A;
    }
 .page-header {
-   background: url("") no-repeat center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size:cover; max-width:100%; margin: auto;text-align: center;margin-bottom:20px;
+   background: url("https://api.dujin.org/bing/1920.php") no-repeat center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size:cover; max-width:100%; margin: auto;text-align: center;margin-bottom:20px;
 }
 </style>
 
-    <link rel="stylesheet" href="https://http://yourdomain.com/assets/css/style.css">
-    <link rel="stylesheet" href="https://http://yourdomain.com/assets/css/fade.css">
+    <link rel="stylesheet" href="https://hydrogen.atlinker.cn/assets/css/style.css">
+    <link rel="stylesheet" href="https://hydrogen.atlinker.cn/assets/css/fade.css">
   </head>
   <body>
 
@@ -44,7 +44,7 @@
     
 
     
-      <a class="site-title" href="/">Your awesome title</a>
+      <a class="site-title" href="/">Link</a>
     
 
     
@@ -128,11 +128,11 @@
       var titleTime;
       document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-          document.title = ' ' + OriginTitile;
+          document.title = '(つェ⊂)我藏好啦 ' + OriginTitile;
           clearTimeout(titleTime);
         }
         else {
-          document.title = ' ' + OriginTitile;
+          document.title = '´∇｀ 呀被发现啦~ ' + OriginTitile;
           titleTime = setTimeout(function() {
             document.title = OriginTitile;
           }, 2000);
@@ -208,14 +208,17 @@
         time = xhr.getResponseHeader("Date");
         console.log(xhr.getAllResponseHeaders())
         curDate = new Date(time);
-        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) -  ) / 86400 )));
+        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) - 1514736000 ) / 86400 )));
         
-        document.getElementById("sitetime2").innerHTML = (parseInt((((curDate.getTime() / 1000) -  ) / 86400 )));
+        document.getElementById("sitetime2").innerHTML = (parseInt((((curDate.getTime() / 1000) - 1514736000 ) / 86400 )));
         
       }
     }
   }
       </script>
+      
+      <script src = '/assets/js/instantclick.min.js' data-no-instant></script>
+      <script data-no-instant>InstantClick.init();</script>
       
   </body>
 </html>

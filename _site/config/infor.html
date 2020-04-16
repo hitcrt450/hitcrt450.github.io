@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="theme-color" content="#">
+    <meta name="theme-color" content="#546E7A">
 
     
 
@@ -18,22 +18,22 @@
     <link rel="canonical" href="/config/infor.html">
 
     
-    <meta name="keywords" itemprop="keywords" content="">
-    <link rel="shortcut icon" sizes="128x128" href="https://http://yourdomain.com/avatar/favicon.png">
+    <meta name="keywords" itemprop="keywords" content="blog,css,html,php">
+    <link rel="shortcut icon" sizes="128x128" href="https://hydrogen.atlinker.cn/avatar/favicon.png">
     <meta name="robots" content="noarchive">
 
    
     <style>
 .site-header {
-   background-color: #;
+   background-color: #546E7A;
    }
 .page-header {
-   background: url("") no-repeat center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size:cover; max-width:100%; margin: auto;text-align: center;margin-bottom:20px;
+   background: url("https://api.dujin.org/bing/1920.php") no-repeat center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size:cover; max-width:100%; margin: auto;text-align: center;margin-bottom:20px;
 }
 </style>
 
-    <link rel="stylesheet" href="https://http://yourdomain.com/assets/css/style.css">
-    <link rel="stylesheet" href="https://http://yourdomain.com/assets/css/fade.css">
+    <link rel="stylesheet" href="https://hydrogen.atlinker.cn/assets/css/style.css">
+    <link rel="stylesheet" href="https://hydrogen.atlinker.cn/assets/css/fade.css">
   </head>
   <body>
 
@@ -44,7 +44,7 @@
     
 
     
-      <a class="site-title" href="/">Your awesome title</a>
+      <a class="site-title" href="/">Link</a>
     
 
     
@@ -128,11 +128,11 @@
       var titleTime;
       document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-          document.title = ' ' + OriginTitile;
+          document.title = '(つェ⊂)我藏好啦 ' + OriginTitile;
           clearTimeout(titleTime);
         }
         else {
-          document.title = ' ' + OriginTitile;
+          document.title = '´∇｀ 呀被发现啦~ ' + OriginTitile;
           titleTime = setTimeout(function() {
             document.title = OriginTitile;
           }, 2000);
@@ -152,17 +152,16 @@
      <div>
   <span style="color:#78909C;font-size:18px">欢迎您，</span>
         
-  <span style="color:#159957;font-size:25px">&nbsp;!</span>
+  <span style="color:#159957;font-size:25px">Link&nbsp;!</span>
   <h2>Hydrogen版本:<span style="color:#78909C;font-size:20px">&nbsp;1.1.0</span></h2>
   <br><a href="/update/update.html">查看更新</a>
-  <h2>主域名:<blockquote><span style="color:#78909C;font-size:20px">http://yourdomain.com</span></blockquote></h2>
-  <h2>博主:<blockquote><span style="color:#78909C;font-size:20px"></span></blockquote></h2>
-  <h2>网站关键词:<blockquote><span style="color:#78909C;font-size:20px"></span></blockquote></h2>
-  <h2>网站描述:<blockquote><span style="color:#78909C;font-size:20px">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</span></blockquote></h2>
-  <h2>主题色:<blockquote><span style="color:#;font-size:50px">■</span></blockquote></h2>
-  <h2>MathJax:<blockquote><span style="color:#78909C;font-size:20px"></span></blockquote></h2>
-  <h2>PJAX:<blockquote><span style="color:#78909C;font-size:20px"></span></blockquote></h2>
+  <h2>主域名:<blockquote><span style="color:#78909C;font-size:20px">hydrogen.atlinker.cn</span></blockquote></h2>
+  <h2>博主:<blockquote><span style="color:#78909C;font-size:20px">Link</span></blockquote></h2>
+  <h2>网站关键词:<blockquote><span style="color:#78909C;font-size:20px">blog,css,html,php</span></blockquote></h2>
+  <h2>网站描述:<blockquote><span style="color:#78909C;font-size:20px">Just 4 Fun.</span></blockquote></h2>
+  <h2>主题色:<blockquote><span style="color:#546E7A;font-size:50px">■</span></blockquote></h2>
+  <h2>MathJax:<blockquote><span style="color:#78909C;font-size:20px">false</span></blockquote></h2>
+  <h2>PJAX:<blockquote><span style="color:#78909C;font-size:20px">true</span></blockquote></h2>
   <br><span style="font-size:14px" id="cut"></span>
   <br><span style="font-size:14px" id="latest"></span>
     </div>
@@ -201,14 +200,17 @@
         time = xhr.getResponseHeader("Date");
         console.log(xhr.getAllResponseHeaders())
         curDate = new Date(time);
-        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) -  ) / 86400 )));
+        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) - 1514736000 ) / 86400 )));
         
-        document.getElementById("sitetime2").innerHTML = (parseInt((((curDate.getTime() / 1000) -  ) / 86400 )));
+        document.getElementById("sitetime2").innerHTML = (parseInt((((curDate.getTime() / 1000) - 1514736000 ) / 86400 )));
         
       }
     }
   }
       </script>
+      
+      <script src = '/assets/js/instantclick.min.js' data-no-instant></script>
+      <script data-no-instant>InstantClick.init();</script>
       
   </body>
 </html>

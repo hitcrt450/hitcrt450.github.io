@@ -30,7 +30,7 @@ hydrogen-blog:
 MathJax: false
 
 #install emoji
-plugins:
+plugins_dir:
   - jemoji
 
 # social account
@@ -44,3 +44,4 @@ facebook:
   app_id: null
   #authors: null
 #  admins:
+gems: [jekyll-paginate]

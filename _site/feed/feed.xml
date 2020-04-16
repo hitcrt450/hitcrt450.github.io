@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Your awesome title</title>
-        <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-        <link>http://yourdomain.com</link>
-        <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+        <title>Link</title>
+        <description>Just 4 Fun.</description>
+        <link>hydrogen.atlinker.cn</link>
+        <atom:link href="hydrogen.atlinker.cn/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
                <title>Hydrogen update</title>
@@ -21,8 +20,8 @@
 &lt;p&gt;现在可以于&lt;a href=&quot;/config/infor.html&quot;&gt;主题配置&lt;/a&gt;处检查配置项，如配置正确可删除&lt;code class=&quot;highlighter-rouge&quot;&gt;/config/infor.html&lt;/code&gt;文件&lt;/p&gt;
 </description>
                <pubDate>Sat, 20 Jul 2019 00:00:00 +0800</pubDate>
-               <link>http://yourdomain.com/2019/07/20/update.html</link>
-               <guid isPermaLink="true">http://yourdomain.com/2019/07/20/update.html</guid>
+               <link>hydrogen.atlinker.cn/2019/07/20/update.html</link>
+               <guid isPermaLink="true">hydrogen.atlinker.cn/2019/07/20/update.html</guid>
                </item>
         
             <item>
@@ -34,8 +33,8 @@
 &lt;/blockquote&gt;
 </description>
                <pubDate>Sat, 23 Dec 2017 00:00:00 +0800</pubDate>
-               <link>http://yourdomain.com/2017/12/23/hello-world.html</link>
-               <guid isPermaLink="true">http://yourdomain.com/2017/12/23/hello-world.html</guid>
+               <link>hydrogen.atlinker.cn/2017/12/23/hello-world.html</link>
+               <guid isPermaLink="true">hydrogen.atlinker.cn/2017/12/23/hello-world.html</guid>
                </item>
         
     </channel>
